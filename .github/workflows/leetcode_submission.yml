@@ -14,7 +14,7 @@ on:
   
   # using cron to schedule the task 
   schedule:
-    - cron: '30 15 * * *'  # Runs daily 
+    - cron: '45 7 * * *'  # Runs daily 
   workflow_dispatch:  # Allow manual trigger
 
 
